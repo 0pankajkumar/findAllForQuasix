@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<! This code has been made for Problem statement at Quasix by Pankaj Kumar (an aspiring intern)>
+<! Starter template taken from https://getbootstrap.com/docs/4.3/getting-started/introduction/ >
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find All | A project for Quasix Solutions</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+</head>
+
+<body>
+    <h2> Find All - A Quasix Problem statement</h2><br><br>
+    <div class="vertical-center-row">
+
+        <form>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">Enter Paragraph</label>
+                <div class="col-sm-6">
+                    <textarea class="form-control" id="paragraph" rows="10" cols="10" placeholder="Enter paragraph here..."> </textarea>
+                    <input type="reset" value="Reset" class="btn btn-secondary btn-sm"> </input>
+                </div>
+            </div>
+        </form>
+
+        <form>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">Enter Words</label>
+                <div class="col-sm-6">
+                    <input type="text" id="word" class="form-control" placeholder="Enter words here..."> </input>
+                    <input type="reset" value="Reset" class="btn btn-secondary btn-sm"> </input>
+                </div>
+            </div>
+        </form>
+
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-4">
+                <button class="btn btn-secondary  btn-success col-sm-10" onclick="myFunction()">
+            Find it
+        </button>
+            </div>
+        </div>
+
+        <br><br><br>
+
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label"></label>
+            <p class="col-sm-2">Found words at : </p>
+            <div class="col-sm-8" id="demo" style="background-color: #c1cdcd"></div>
+        </div>
+
+    </div>
+
+
+    <script type="text/javascript" src="index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp" crossorigin="anonymous"></script>
+</body>
+
+</html>
