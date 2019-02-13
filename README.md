@@ -3,6 +3,7 @@
 
 # Running
  Run this by opening "index.html" in your favourite browser
+ or simply visit https://805bluebell.github.io/findAllForQuasix/ for hosted live action.
  Fill in the text boxes & hit "Find it" button to see where the words were found with Line numbers
  
 # Source
