@@ -2,7 +2,7 @@
  A vanilla JS code to search for words in a paragraph and show the lines with line number where they were found
 
 # Running
- Run this by opening findAll.html in your favourite browser
+ Run this by opening "index.html" in your favourite browser
  Fill in the text boxes & hit "Find it" button to see where the words were found with Line numbers
  
 # Source
